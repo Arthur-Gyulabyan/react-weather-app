@@ -1,11 +1,12 @@
 import React from 'react';
+import './WeatherCard.css'
 
 const WeatherCard = (props) => {
     return (
-        <div>
-            <h1>{props.weekDay}</h1>
-            <img src={props.imgURL} alt="Weather"/>
-            <p>{props.temp}</p>
+        <div className="weather-card">
+            <h2 className="weather-card__week">{props.weekDay}</h2>
+            <img src={props.imgURL} alt="Weather" className="weather-card__img"/>
+            <p className="weather-card__temp">{props.temp}</p>
         </div>
     );
 }
