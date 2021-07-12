@@ -1,0 +1,7 @@
+.card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #d3e1fa;
+}
