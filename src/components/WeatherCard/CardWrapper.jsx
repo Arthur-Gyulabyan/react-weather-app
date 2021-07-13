@@ -1,7 +1,7 @@
 import React from 'react';
-import { weatherInfo } from '../../App';
+import { weatherInfo } from '../../data/weather.data';
 import WeatherCard from './WeatherCard';
-import './CardWrapper.css'
+import '../../assets/styles/CardWrapper.css'
 
 const CardWrapper = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeatherCard.css'
+import '../../assets/styles/WeatherCard.css'
 
 const WeatherCard = (props) => {
     return (
